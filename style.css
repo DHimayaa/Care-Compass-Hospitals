@@ -202,6 +202,359 @@
     color: #555;
     line-height: 1.5;
   }
+
+  /* Contact Us Section */
+.contact-us {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.contact-us .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-us h2 {
+  font-size: 2em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+  max-width: 45%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-info h3,
+.contact-form h3 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  font-size: 1em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Header for Primary Care Page */
+.primary-care-header {
+  background: url('primary-care-banner.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.primary-care-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.primary-care-header p {
+  font-size: 1.2em;
+}
+
+/* Primary Care Content */
+.primary-care-content {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.primary-care-content .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.primary-care-content h2 {
+  font-size: 2em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.primary-care-content p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.primary-care-content ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.primary-care-content ul li {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.primary-care-content ul li:before {
+  content: "✓";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.primary-care-content .primary-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.primary-care-content .primary-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Header for Emergency Cases Page */
+.emergency-header {
+  background: url('emergency-banner.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.emergency-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.emergency-header p {
+  font-size: 1.2em;
+}
+
+/* Emergency Content */
+.emergency-content {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.emergency-content .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.emergency-content h2 {
+  font-size: 2em;
+  color: #d9534f;
+  margin-bottom: 20px;
+}
+
+.emergency-content p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.emergency-content ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.emergency-content ul li {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.emergency-content ul li:before {
+  content: "✓";
+  color: #d9534f;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.emergency-content a {
+  color: #d9534f;
+  text-decoration: none;
+}
+
+.emergency-content .emergency-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.emergency-content .emergency-btn:hover {
+  background-color: #c9302c;
+}
+
+
+/* Header for Online Appointments Page */
+.appointment-header {
+  background: url('appointment-banner.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.appointment-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.appointment-header p {
+  font-size: 1.2em;
+}
+
+/* Appointment Form Section */
+.appointment-form-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.appointment-form-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.appointment-form-section h2 {
+  font-size: 2em;
+  color: #337ab7;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Appointment Form */
+.appointment-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form .form-group {
+  margin-bottom: 20px;
+}
+
+.appointment-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.appointment-form textarea {
+  resize: none;
+}
+
+.appointment-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-btn:hover {
+  background-color: #286090;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #d32f2f;
+}
+
+
+
   
   
   
