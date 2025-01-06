@@ -290,7 +290,7 @@
 
 /* Header for Primary Care Page */
 .primary-care-header {
-  background: url('primary-care-banner.jpg') no-repeat center center/cover;
+  background: url('/img/banner1.jpg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -370,7 +370,7 @@
 
 /* Header for Emergency Cases Page */
 .emergency-header {
-  background: url('emergency-banner.jpg') no-repeat center center/cover;
+  background: url('/img/banner2.webp') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -456,7 +456,7 @@
 
 /* Header for Online Appointments Page */
 .appointment-header {
-  background: url('appointment-banner.jpg') no-repeat center center/cover;
+  background: url('/img/banner3.jpg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -521,18 +521,6 @@
   resize: none;
 }
 
-.appointment-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #337ab7;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
 .appointment-btn:hover {
   background-color: #286090;
 }
@@ -552,6 +540,236 @@
 .back-btn:hover {
   background-color: #d32f2f;
 }
+
+
+/* Header for Departments Page */
+.departments-header {
+  background: url('/img/navbar.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.departments-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.departments-header p {
+  font-size: 1.2em;
+}
+
+/* Departments Section */
+.departments-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.departments-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.departments-section h2 {
+  font-size: 2em;
+  color: #337ab7;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Department Grid */
+.department-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.department-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.department-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.department-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.department-card h3 {
+  font-size: 1.5em;
+  color: #337ab7;
+  margin: 15px 0 10px;
+}
+
+.department-card p {
+  padding: 0 15px 20px;
+  font-size: 1em;
+  color: #555;
+}
+
+/* Back to Home Button */
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #337ab7;
+}
+
+/*Header for Doctors section*/
+.doctors-header {
+  background: url('/img/navbar.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Doctors Section */
+.doctors-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.doctors-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.doctors-section h2 {
+  font-size: 2em;
+  color: #337ab7;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Doctors Grid */
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.doctor-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.doctor-card h3 {
+  font-size: 1.5em;
+  color: #337ab7;
+  margin: 15px 0 10px;
+}
+
+.doctor-card p {
+  padding: 0 15px 20px;
+  font-size: 1em;
+  color: #555;
+}
+
+
+
+/* Header for Branches Page */
+.branches-header {
+  background: url('/img/navbar.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Branches Section */
+.branches-section {
+  padding: 60px 20px;
+  background-color: #eef3f9;
+}
+
+.branches-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.branches-section h2 {
+  font-size: 2em;
+  color: #337ab7;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Branches Grid */
+.branches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.branch-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.branch-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.branch-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.branch-card h3 {
+  font-size: 1.5em;
+  color: #337ab7;
+  margin: 15px 0 10px;
+}
+
+.branch-card p {
+  padding: 0 15px 20px;
+  font-size: 1em;
+  color: #555;
+}
+
+
+
 
 
 
